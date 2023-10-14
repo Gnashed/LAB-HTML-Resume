@@ -4,7 +4,6 @@
 
 .container {
     border-radius: 10px;
-    border: 2px solid black;
     display: flex;
     flex-direction: row;
     margin: 30px auto;
@@ -31,19 +30,23 @@ img {
     letter-spacing: 2px;
 }
 
-/* ======================= left-column ======================= */
+/* ======================= left-column, contact ======================= */
 
 .left-column {
     display: flex;
     flex-direction: column;
 }
 
+.contact {
+    padding-left: 30px;
+    padding-top: 40px;
+    width: 400px;
+    color: gray;
+}
 
-
-
-
-
-
+#phone-number {
+    letter-spacing: 1px;
+}
 
 /* ======================= articles ======================= */
 
