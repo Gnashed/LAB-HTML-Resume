@@ -1,3 +1,63 @@
-body {
-    background-color: darkcyan;
+* {
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.container {
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+}
+
+/* ======================= picture ======================= */
+
+img {
+    border: 15px solid rgb(149, 180, 149);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#picture {
+    margin: 40px 0 0 20px;
+}
+
+#name {
+    margin-left: 10px;
+    color: rgb(88, 87, 87);
+    letter-spacing: 2px;
+}
+
+/* ======================= left-column ======================= */
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+/* ======================= articles ======================= */
+
+.experience {
+    background-color: rgb(77, 75, 75);
+    color: white;
+    padding: 30px;
+}
+
+.experience p {
+    color: rgb(199, 196, 196);
+}
+
+/* Styling for the h3 */
+h3 {
+    color: yellowgreen;
 }
