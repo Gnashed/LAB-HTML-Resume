@@ -5,34 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Resume</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <!-- Picture -->
-        <div id="picture">
-            <img src="imgs/IMG_2808.jpg" alt="A selfie of me.">
-        </div> <!-- ./picture -->
+        <div class="left-column">
+            <!-- Picture -->
+            <div id="picture">
+                <img src="imgs/IMG_2808.jpg" alt="A selfie of me.">
+                <h1 id="name">Tion Blackmon</h1>
+            </div> <!-- ./picture -->
 
-        <h1 id="name">Tion Blackmon</h1>
+            <div class="contact">
+                <!-- Labels -->
+                <p>Call</p>
+                <p>Mail</p>
+                <p>GitHub</p>
+                <p>Home</p>
 
-        <div class="contact">
-            <!-- Labels -->
-            <p>Call</p>
-            <p>Mail</p>
-            <p>GitHub</p>
-            <p>Home</p>
-
-            <!-- The actual info -->
-            <p>+1 (555) 555-5555</p>
-            <p>my_email@example.com</p>
-            <p>https://github.com/Gnashed</p>
-            <p>Nashville, TN</p>    
-        </div> <!-- ./contact -->
-
-        <h3 id="experience-h3">Experience</h3>
+                <!-- The actual info -->
+                <p>+1 (555) 555-5555</p>
+                <p>my_email@example.com</p>
+                <p>https://github.com/Gnashed</p>
+                <p>Nashville, TN</p>    
+            </div> <!-- ./contact -->
+        </div> <!-- ./left-column -->
 
         <div class="experience">
-            <article>
+            <h3 id="experience-h3">Experience</h3>
+            <article id="uniguest">
                 <header>
                 <h2>Uniguest - Technical Analyst I</h2>
                 <p>Nov 2022 - Present</p>
@@ -43,7 +46,7 @@
                     </p>
                 </section>
             </article>
-            <article>
+            <article id="asurion-tss">
                 <header>
                     <h2>Asurion - Technical Support Specialist</h2>
                     <p>Feb 2019 - Oct 2022</p>
@@ -54,7 +57,7 @@
                     </p>
                 </section>
             </article>
-            <article>
+            <article id="asurion-cs">
                 <header>
                     <h2>Asurion - Claims Specialist</h2>
                     <p>Feb 2018 - Feb 2019</p>
@@ -65,7 +68,7 @@
                     </p>
                 </section>
             </article>
-        </div>
+        </div> <!-- ./experience -->
         
 
     </div>  <!-- ./container-->
