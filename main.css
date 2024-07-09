@@ -7,8 +7,6 @@
     display: flex;
     flex-direction: row;
     margin: 30px auto;
-    width: 100%;
-    height: auto;
 }
 
 /* ======================= picture ======================= */
@@ -60,7 +58,6 @@ img {
     color: rgb(199, 196, 196);
 }
 
-/* Styling for the h3 */
 h3 {
     color: yellowgreen;
 }
