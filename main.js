@@ -1,1 +1,3 @@
-console.log("Making sure this works.");
+console.log("JS is properly linked!");
+
+document.querySelector('img').addEventListener('click', () => console.log("Clicked profile picture"));
